@@ -30,4 +30,16 @@ body {
   button:hover {
     background-color: #0056b3;
   }
+
+/* Style for the loading indicator */
+#loading {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #555;
+  }
   
+  /* Hide element by default */
+  .hidden {
+    display: none;
+  }
+    
