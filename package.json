@@ -1,0 +1,31 @@
+{
+  "name": "math-question-generator",
+  "version": "1.0.0",
+  "description": "A web app that dynamically generates new math questions when students answer incorrectly. The project includes a front-end interface with a button to trigger question generation, a back-end API to handle logic, and a database to store and retrieve questions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadiproz/math-question-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadiproz/math-question-generator/issues"
+  },
+  "homepage": "https://github.com/hadiproz/math-question-generator#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
